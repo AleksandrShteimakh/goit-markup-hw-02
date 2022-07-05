@@ -1,0 +1,165 @@
+/* основной цвет фона #E5E5E5; */
+/* цвет основного текста #757575 */
+/*  вторичный цвет секции и футера  #2F303A; */
+/* цвет текста белый #FFFFFF */
+/* цвет текста синий #2196F3 */
+/* цвет заголовков #212121 */
+/* цвет блока #F5F4FA */
+
+/* кастомные css свойства */
+/* пишем color: var(--primery-text-color); и тд  */
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: ##212121;
+  --acent-color: #2196f3;
+  --primery-white-color: #ffffff;
+  --primery-black-color: #000000;
+}
+
+body {
+  background: var(--primery-white-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+main {
+}
+/* отмена точек в списках ul */
+ul {
+  list-style: none;
+}
+/* logo */
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #var(--acent-color);
+}
+
+.logo-styles:hover,
+.logo-styles:focus {
+  color: var(--acent-color);
+}
+
+.logo-styles2:hover,
+.logo-styles2:focus {
+  color: var(--acent-color);
+}
+
+.logo-styles {
+  color: var(--acent-color);
+  text-decoration: none;
+}
+.logo-styles2 {
+  color: var(--primery-black-color);
+  text-decoration: none;
+}
+/* site nav */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  cursor: pointer;
+}
+
+.site-nav .nav-text:hover,
+.site-nav .nav-text:focus {
+  color: var(--acent-color);
+}
+.nav-text {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+. .auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+}
+.number-styles {
+  color: var(--primery-text-color);
+  text-decoration: none;
+}
+.number-styles:hover,
+.number-styles:focus {
+  color: var(--acent-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--primery-white-color);
+
+  /* временный цвет заливки фона */
+  background-color: aqua;
+
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.feature-title {
+  columns: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.feature .name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+}
+.profesy {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* кнопка */
+button {
+  font-family: inherit;
+}
+.button {
+  background-color: var(--acent-color);
+  color: var(--primery-white-color);
+
+  cursor: pointer;
+}
+/* .button.primery {
+  color: var(--primery-white-color);
+  background-color: var(--acent-color);
+}
+.button.secondary {
+  color: var(--acent-color);
+  background-color: var(--primery-white-color);
+} */
+
+.adress-styles {
+  color: var(--primery-white-color);
+}
+.adress-styles:hover,
+.adress-styles:focus {
+  color: var(--acent-color);
+}
