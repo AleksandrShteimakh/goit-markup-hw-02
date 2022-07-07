@@ -51,6 +51,19 @@ ul {
   color: var(--primery-black-color);
   text-decoration: none;
 }
+
+.number-styles {
+  color: var(--primery-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.number-styles:hover,
+.number-styles:focus {
+  color: var(--acent-color);
+}
 /* site nav */
 .site-nav {
   font-weight: 500;
