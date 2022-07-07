@@ -25,13 +25,7 @@ body {
   width: 1600px;
   height: 2349px;
 }
-.header {
-  /* border: 1px solid tomato; */
-}
-main {
-  background-color: ;
-  /* border: 1px solid tomato; */
-}
+
 /* отмена точек в списках ul */
 ul {
   list-style: none;
