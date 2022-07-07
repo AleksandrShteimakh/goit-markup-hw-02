@@ -22,10 +22,15 @@ body {
   background: var(--primery-white-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  width: 1600px;
+  height: 2349px;
 }
-
+.header {
+  /* border: 1px solid tomato; */
+}
 main {
   background-color: ;
+  /* border: 1px solid tomato; */
 }
 /* отмена точек в списках ul */
 ul {
@@ -73,23 +78,11 @@ ul {
   text-decoration: none;
 }
 
-.number-styles {
-  color: var(--primery-text-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.number-styles:hover,
-.number-styles:focus {
-  color: var(--acent-color);
-}
-
 /* hero */
 .hero {
   background-color: var(--footer-color);
-  margin-top: 80px;
+
+  border: 1px solid green;
 }
 .hero-title {
   color: var(--primery-white-color);
@@ -112,6 +105,9 @@ ul {
 .section-text {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
 }
 
 .feature-title {
@@ -130,6 +126,10 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  letter-spacing: 0.03em;
+
+  color: var(--primery-text-color);
 }
 
 /* кнопка */
