@@ -24,6 +24,9 @@ body {
   letter-spacing: 0.03em;
 }
 
+.header-page {
+  /* display: flex; */
+}
 /* отмена точек в списках ul */
 
 .style {
@@ -32,7 +35,7 @@ body {
   padding: 0;
 }
 .container {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 
   width: 1200px;
   margin: 0 auto;
@@ -40,13 +43,18 @@ body {
   padding-right: 15px;
 }
 /* logo */
-.logo {
+.logo,
+.logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--acent-color);
+}
+.logo-footer {
+  display: inline-block;
+  margin-top: 60px;
 }
 
 .logo-styles3 {
@@ -226,5 +234,6 @@ address {
 }
 
 .footer {
+  outline: 3px solid tomato;
   background-color: var(--footer-color);
 }
