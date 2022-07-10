@@ -14,7 +14,24 @@ body {
 ul {
   list-style: none;
 }
+.header {
+}
+.card-border {
+  border: 1px solid #eeeeee;
+}
+.style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  outline: 2px solid tomato;
 
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* logo */
 .logo {
   text-decoration: none;
@@ -38,6 +55,7 @@ ul {
 }
 /* site nav */
 .site-nav {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,7 +82,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.button {
+.btn {
   color: var(--title-text-color);
   text-decoration: none;
 
@@ -90,6 +108,8 @@ ul {
 }
 
 .title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -99,6 +119,8 @@ ul {
 }
 
 .title-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;

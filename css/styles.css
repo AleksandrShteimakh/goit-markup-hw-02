@@ -22,13 +22,22 @@ body {
   background: var(--primery-white-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  width: 1600px;
-  height: 2349px;
 }
 
 /* отмена точек в списках ul */
-ul {
+
+.style {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  outline: 2px solid tomato;
+
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* logo */
 .logo {
@@ -84,24 +93,57 @@ ul {
   color: var(--title-text-color);
   text-decoration: none;
 }
+.auth-nav {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* hero */
 .hero {
   background-color: var(--footer-color);
-
-  border: 1px solid green;
+  text-align: center;
 }
 .hero-title {
+  width: 696px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+
   color: var(--primery-white-color);
 
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+button {
+  font-family: inherit;
+}
+.btn {
+  margin-bottom: 200px;
+  text-align: center;
+  min-width: 200px;
+  /* display: inline-block; */
+  padding: 10px 32px;
+  background-color: var(--acent-color);
+  color: var(--primery-white-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--primery-black-color);
+}
+
+/* .section {
+  padding-bottom: 94px;
+} */
 
 .section-title {
+  margin-top: 94px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
 
   font-size: 14px;
@@ -110,26 +152,50 @@ ul {
 }
 
 .section-text {
+  margin-top: 0;
+  margin-bottom: 94px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--primery-text-color);
 }
-
+.feature {
+  display: flex;
+  margin-top: 0;
+  padding-bottom: 94px;
+}
 .feature-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   columns: var(--title-text-color);
 
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
-.feature .name-title {
+
+.padding-team {
+  padding-top: 94px;
+}
+.margin-left {
+  margin-left: 30px;
+}
+.name-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19em;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+.photo {
+  margin-bottom: 30px;
 }
 .profesy {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -140,23 +206,7 @@ ul {
 }
 
 /* кнопка */
-button {
-  font-family: inherit;
-}
-.button {
-  background-color: var(--acent-color);
-  color: var(--primery-white-color);
 
-  cursor: pointer;
-}
-/* .button.primery {
-  color: var(--primery-white-color);
-  background-color: var(--acent-color);
-}
-.button.secondary {
-  color: var(--acent-color);
-  background-color: var(--primery-white-color);
-} */
 address {
   display: block;
 
@@ -169,6 +219,10 @@ address {
 .adress-styles:hover,
 .adress-styles:focus {
   color: var(--acent-color);
+}
+.address-ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer {
